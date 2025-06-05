@@ -1,49 +1,18 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Instagram, Mail } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: 'Jan Novák',
+    name: 'Václav Pisinger',
     position: 'Zakladatel & CEO',
-    photo: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600',
-    bio: 'Zkušený vývojář a fotograf s 10letou praxí v oboru. Jan založil TvořištĚ s vizí vytvořit kreativní studio, které spojuje technologie a umění.',
+    photo: 'https://eu.zonerama.com/ZA/Avatar/3218463?638758231297830000',
+    bio: 'Vývojář, fotograf a organizátor velkých akcí. Václav založil Tvořiště s vizí vytvořit kreativní studio, které spojuje technologie a umění.',
     social: {
-      linkedin: '#',
-      github: '#',
-      email: 'jan@tvoriste.cz'
+      instagram: 'https://www.instagram.com/vena.vapi',
+      github: 'https://vaclavpi.github.io/',
+      email: 'vpi@outlook.cz'
     }
   },
-  {
-    name: 'Lucie Dvořáková',
-    position: 'Vedoucí fotografického oddělení',
-    photo: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600',
-    bio: 'Lucie je profesionální fotografka specializující se na portréty a produktovou fotografii. Její práce byla oceněna na několika mezinárodních soutěžích.',
-    social: {
-      linkedin: '#',
-      email: 'lucie@tvoriste.cz'
-    }
-  },
-  {
-    name: 'Martin Svoboda',
-    position: 'Lead Developer',
-    photo: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600',
-    bio: 'Martin má bohaté zkušenosti s vývojem webů a aplikací. Specializuje se na React, Node.js a mobilní technologie.',
-    social: {
-      linkedin: '#',
-      github: '#',
-      email: 'martin@tvoriste.cz'
-    }
-  },
-  {
-    name: 'Karolína Veselá',
-    position: 'Event manažerka',
-    photo: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600',
-    bio: 'Karolína má vášeň pro organizaci a plánování. S její pomocí proběhne každá akce hladce a bez stresu.',
-    social: {
-      linkedin: '#',
-      email: 'karolina@tvoriste.cz'
-    }
-  }
 ];
 
 const Team = () => {
@@ -67,7 +36,7 @@ const Team = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          Seznamte se s talentovanými profesionály, kteří stojí za naším úspěchem
+          Seznamte se s členy našeho týmu, kteří stojí za naším úspěchem.
         </motion.p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
@@ -94,13 +63,13 @@ const Team = () => {
                 <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">{member.bio}</p>
                 
                 <div className="flex space-x-3">
-                  {member.social.linkedin && (
+                  {member.social.instagram && (
                     <a 
-                      href={member.social.linkedin} 
+                      href={member.social.instagram} 
                       className="p-2 text-primary-500 hover:text-primary-600 rounded-full hover:bg-primary-50 dark:hover:bg-primary-900 transition-colors"
-                      aria-label={`LinkedIn ${member.name}`}
+                      aria-label={`Instagram ${member.name}`}
                     >
-                      <Linkedin size={18} />
+                      <Instagram size={18} />
                     </a>
                   )}
                   

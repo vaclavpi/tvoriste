@@ -5,39 +5,21 @@ const portfolioItems = [
   {
     title: 'Firemní web pro homeopatickou poradu Emília',
     category: 'Web Development',
-    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://1drv.ms/i/c/224b4bd2f5dfbc82/EcpdshwmqrlLuKLrchXd-uMBQtNNZ7qfnqk5qyKDIxC5QQ?e=wEdtbB',
     description: 'Modernější responzivní webové stránky s návštěvní knihou. '
   },
   {
-    title: 'Produktová fotografie ABC',
-    category: 'Fotografie',
-    image: 'https://images.pexels.com/photos/1667088/pexels-photo-1667088.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Série produktových fotografií pro e-shop'
-  },
-  {
-    title: 'Konference Tech Summit',
+    title: 'Organizace maturitního plesu',
     category: 'Event',
-    image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Organizace technologické konference pro 500 účastníků'
+    image: 'https://eu.zonerama.com/vaclavpi/Photo/12796645/512281419',
+    description: 'Spoluorganizace maturitního plesu Gymnázia Čelákovice'
   },
   {
-    title: 'Mobilní aplikace Fitness',
-    category: 'App Development',
-    image: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Fitness aplikace pro iOS a Android'
-  },
-  {
-    title: 'Svatební fotografie',
+    title: 'Fotografie z plesu',
     category: 'Fotografie',
-    image: 'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://eu.zonerama.com/vaclavpi/1373421',
     description: 'Zachycení nezapomenutelných momentů'
   },
-  {
-    title: 'E-shop Boutique',
-    category: 'Web Development',
-    image: 'https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'E-commerce řešení pro módní butik'
-  }
 ];
 
 const breakpointColumns = {

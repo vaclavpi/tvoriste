@@ -50,18 +50,16 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#o-nas" className="text-gray-400 hover:text-primary-500 transition-colors">O společnosti</a></li>
               <li><a href="#tym" className="text-gray-400 hover:text-primary-500 transition-colors">Náš tým</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-primary-500 transition-colors">Reference</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-primary-500 transition-colors">Kariéra</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-primary-500 transition-colors">Blog</a></li>
+            
             </ul>
           </div>
           
           <div>
             <h4 className="text-lg font-semibold mb-4">Kontakt</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">Nádražní 25, Praha 5</li>
-              <li className="text-gray-400">+420 123 456 789</li>
-              <li className="text-gray-400">info@tvoriste.cz</li>
+              <li className="text-gray-400">-</li>
+              <li className="text-gray-400">+420 603 981 192</li>
+              <li className="text-gray-400">vpi@outlook.cz</li>
             </ul>
             
             <div className="mt-6 flex items-center space-x-3">
@@ -81,7 +79,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © {currentYear} TvořištĚ s.r.o. Všechna práva vyhrazena.
+            © {currentYear} Tvořiště s.r.o. Všechna práva vyhrazena.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-500 hover:text-primary-500 text-sm transition-colors">Obchodní podmínky</a>

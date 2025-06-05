@@ -23,20 +23,19 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <h3 className="text-2xl md:text-3xl font-bold mb-6 text-primary-500">
-              TvořištĚ s.r.o. - kreativní studio pro všechny vaše potřeby
+              Tvořiště s.r.o. - kreativní studio pro všechny potřeby
             </h3>
             
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              Jsme mladá a dynamická firma složená z nadšenců a profesionálů s bohatými zkušenostmi
-              v oblasti kreativní tvorby, technologií a organizace. Naším cílem je pomáhat firmám i
+              Jsme mladá a firma složená z nadšenců v oblasti kreativní tvorby, 
+              technologií a organizace. Naším cílem je pomáhat firmám, spolkům i
               jednotlivcům realizovat jejich projekty, ať už se jedná o nový web, reklamní fotografii
-              nebo firemní akci.
+              nebo nějakou akci.
             </p>
             
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              V TvořištĚ věříme, že každý projekt si zaslouží individuální přístup a kreativní řešení.
-              Díky našemu širokému záběru služeb dokážeme pokrýt komplexní potřeby našich klientů a
-              zajistit konzistentní výsledky napříč různými oblastmi.
+              V Tvořišti věříme, že každý projekt si zaslouží individuální přístup a kreativní řešení.
+              A i proto k němu přistupujeme od začátku , jako k novému konceptu metodou "principle thinking".
             </p>
             
             <ul className="space-y-3">
