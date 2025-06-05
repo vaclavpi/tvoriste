@@ -3,10 +3,10 @@ import Masonry from 'react-masonry-css';
 
 const portfolioItems = [
   {
-    title: 'Firemní web pro XYZ',
+    title: 'Firemní web pro homeopatickou poradu Emília',
     category: 'Web Development',
     image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Moderní responzivní webové stránky s administrací'
+    description: 'Modernější responzivní webové stránky s návštěvní knihou. '
   },
   {
     title: 'Produktová fotografie ABC',

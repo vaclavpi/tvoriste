@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Moon, Sun, Palette } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
+import image from '../public/favicon.svg'; // Adjust the path as necessary
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,10 +34,11 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="#" className="flex items-center space-x-2 text-primary-500">
-          <Palette className="h-8 w-8" />
-          <span className="text-2xl font-heading font-bold">TvořištĚ</span>
+        <a href="#" className="flex items-center space-x-1 text-primary-500">
+          <image type="image/svg+xml" href="../public/favicon.svg" className="h-8 w-8" />
+          <span className="text-2xl font-heading font-bold">Tvořiště s.r.o.</span>
         </a>
+        
 
         <nav className="hidden md:flex space-x-8 items-center">
           <a href="#sluzby" className="font-medium hover:text-primary-500 transition-colors">Služby</a>

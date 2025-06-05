@@ -8,42 +8,32 @@ const serviceItems = [
   {
     icon: <Camera className="text-primary-500 mb-4" size={36} />,
     title: 'Fotografování',
-    description: 'Profesionální fotografie pro firemní prezentace, produkty, události nebo portréty. Zachytíme momenty, které vyprávějí váš příběh.',
+    description: 'Profesionální fotografie pro události, portréty či produkty.',
   },
   {
     icon: <Globe className="text-primary-500 mb-4\" size={36} />,
     title: 'Webové stránky',
-    description: 'Tvorba moderních, responzivních a uživatelsky přívětivých webových stránek s důrazem na rychlost a SEO.',
+    description: 'Tvorba moderních, responzivních a uživatelsky přívětivých webových stránek.',
   },
   {
     icon: <Smartphone className="text-primary-500 mb-4" size={36} />,
     title: 'Mobilní aplikace',
-    description: 'Vývoj nativních i hybridních mobilních aplikací pro Android a iOS, které posunou vaše podnikání na další úroveň.',
+    description: 'Vývoj mobilních aplikací pro Android a iOS.',
   },
   {
     icon: <Calendar className="text-primary-500 mb-4\" size={36} />,
     title: 'Organizace eventů',
-    description: 'Kompletní zajištění firemních i soukromých akcí, od malých meetupů po velké konference.',
+    description: 'Kompletní zajištění firemních i soukromých akcí.',
   },
   {
     icon: <Video className="text-primary-500 mb-4" size={36} />,
     title: 'Video produkce',
-    description: 'Profesionální videotvorba, střih a postprodukce. Reklamní spoty, produktová videa, záznamy z akcí.',
-  },
-  {
-    icon: <PenTool className="text-primary-500 mb-4\" size={36} />,
-    title: 'Grafický design',
-    description: 'Tvorba log, vizitek, letáků, bannerů a dalších grafických materiálů pro tištěnou i digitální prezentaci.',
-  },
-  {
-    icon: <Speaker className="text-primary-500 mb-4" size={36} />,
-    title: 'Marketing',
-    description: 'Komplexní marketingové služby, strategie pro sociální sítě, PPC kampaně, email marketing a analytika.',
+    description: 'Videotvorba, střih a postprodukce. ',
   },
   {
     icon: <Lightbulb className="text-primary-500 mb-4\" size={36} />,
     title: 'Konzultace',
-    description: 'Odborné poradenství v oblasti IT, marketingu a podnikání. Pomůžeme vám najít nejvhodnější řešení.',
+    description: 'Poradenství v oblasti IT, marketingu a podnikání. Pomůžeme vám najít nejvhodnější řešení.',
   },
 ];
 
@@ -86,7 +76,7 @@ const Services = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          V TvořištĚ nabízíme širokou škálu kreativních a technických služeb,
+          V Tvořišti nabízíme širokou škálu kreativních a technických služeb,
           vše pod jednou střechou pro vaše komplexní projekty.
         </motion.p>
         

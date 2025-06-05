@@ -4,7 +4,7 @@ import { Camera, Code, Calendar, ArrowDown } from 'lucide-react';
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center bg-gradient-to-br from-primary-50 to-secondary-100 dark:from-gray-900 dark:to-primary-900">
-      <div className="container mx-auto px-4 py-12 pt-32 md:pt-0">
+      <div className="container mx-auto px-4 py-10 my-36 pt-32 md:pt-0">
         <div className="flex flex-col items-center text-center">
           <motion.h1 
             className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6"
@@ -12,7 +12,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="text-primary-500">TvořištĚ</span> pro vaše nápady
+            <span className="text-primary-500">Tvořiště</span> pro vaše nápady
           </motion.h1>
           
           <motion.p 
