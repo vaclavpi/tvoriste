@@ -2,41 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
-  to {
-    opacity: 1;
-  }
-}
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+  body {
+    @apply font-sans text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-900 transition-colors duration-300;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
   }
 }
 
-.animate-fadeIn {
-  animation: fadeIn 0.8s ease-in-out;
-}
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-2.5 rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
 
-.animate-fadeInUp {
-  animation: fadeInUp 0.8s ease-in-out;
-}
+  .btn-primary {
+    @apply btn bg-primary-500 hover:bg-primary-600 text-white focus:ring-primary-500 focus:ring-offset-white dark:focus:ring-offset-gray-900;
+  }
 
-body {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #1a1a1a;
-  color: #ffffff;
-}
+  .btn-secondary {
+    @apply btn bg-white hover:bg-gray-100 text-primary-500 border border-primary-500 focus:ring-primary-500 focus:ring-offset-white dark:focus:ring-offset-gray-900;
+  }
 
-html {
-  scroll-behavior: smooth;
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-12 text-center max-w-3xl mx-auto;
+  }
 }
