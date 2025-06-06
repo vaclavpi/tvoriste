@@ -1,4 +1,4 @@
-import { Palette, Facebook, Instagram, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Facebook, Instagram, Github, Mail } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 const Footer = () => {
@@ -12,8 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 text-primary-500 mb-4">
-              <Palette size={32} />
-              <span className="text-2xl font-heading font-bold">TvořištĚ</span>
+              <span className="text-2xl font-heading font-bold">Tvořiště s.r.o.</span>
             </div>
             <p className="text-gray-400 mb-6">
               Kreativní studio pro fotografování, tvorbu webů a aplikací, organizaci eventů a mnoho dalšího.
@@ -25,15 +24,8 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-primary-500 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary-500 transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary-500 transition-colors">
-                <Linkedin size={20} />
-              </a>
             </div>
           </div>
-          
           <div>
             <h4 className="text-lg font-semibold mb-4">Služby</h4>
             <ul className="space-y-2">
@@ -44,7 +36,6 @@ const Footer = () => {
               <li><a href="#sluzby" className="text-gray-400 hover:text-primary-500 transition-colors">Video produkce</a></li>
             </ul>
           </div>
-          
           <div>
             <h4 className="text-lg font-semibold mb-4">O nás</h4>
             <ul className="space-y-2">
@@ -64,7 +55,7 @@ const Footer = () => {
             
             <div className="mt-6 flex items-center space-x-3">
               <span className="text-gray-400">Přepnout motiv:</span>
-              <button 
+              <button
                 onClick={toggleTheme}
                 className="p-2 text-primary-500 hover:text-primary-400 rounded-full hover:bg-gray-800 transition-colors"
                 aria-label="Přepnout motiv"
